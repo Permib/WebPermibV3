@@ -266,3 +266,122 @@ nav ul li a {
       margin-left: 0;
     }
 }
+
+
+/*=======
+  DOCUM
+  =======*/
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+section.body-docum {
+  font-size: 100%;
+  font-family: "Bitter", sans-serif;
+  color: #f5f4ed;
+  background-color: #e8e8e8;
+}
+
+div.foto-galeri ul.box li {
+  background: #fff;
+  padding: 10px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+.head-docum {
+  background: #454545;
+  height: 100px;
+  text-align: center;
+}
+
+.head-docum h1 {
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 1.6em;
+  margin-bottom: .2em;
+}
+
+.head-docum p {
+  font-size: 13px;
+  font-size: 1rem;
+  color: #707070;
+}
+
+@media only screen and (min-width: 1024px){
+  .head-docum {
+    height: 120px;
+  }
+
+  .head-docum h1 {
+    font-size: 30px;
+    font-size: 1.875rem;
+    padding-top: 1.5em
+  }
+
+}
+
+ul.box {
+  position:relative;
+  z-index: 1;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  margin: 20px;
+  padding: 0;
+}
+
+ul.box li {
+  position: relative;
+  float: left;
+  margin: 0 30px 30px 0;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+
+ul.box li:before,
+ul.box li:after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 70%;
+  max-width: 300px;
+  max-height: 100px;
+  height: 55%;
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  -webkit-transform: skew(-15deg) rotate(-6deg);
+  -moz-transform: skew(-15deg) rotate(-6deg);
+  -ms-transform: skew(-15deg) rotate(-6deg);
+  -o-transform: skew(-15deg) rotate(-6deg);
+  transform: skew(-15deg) rotate(-6deg); 
+}
+
+ul.box li:after{
+  left: auto;
+  right: 10px;
+  -webkit-transform: skew(15deg) rotate(6deg);
+  -moz-transform: skew(15deg) rotate(6deg);
+  -ms-transform: skew(15deg) rotate(6deg);
+  -o-transform: skew(15deg) rotate(6deg);
+  transform: skew(15deg) rotate(6deg);
+}
