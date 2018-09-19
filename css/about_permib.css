@@ -127,3 +127,284 @@ nav ul li a {
 
   
 }
+
+
+/*Foooter */
+
+.footer-distributed {
+  background-color: #03a9f4;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+
+  padding: 55px 50px;
+  margin-top: 60px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer kolom kiri */
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* kalau ada logonya atau tulisan */
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px 'Raleway', cursive;
+  margin: 0;
+}
+
+.footer-distibuted h3 span {
+  color:  #5383d3;
+}
+
+/* menu link di footer */
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-tim-web {
+  color: #37474f;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+
+/* footer di tengah/center */
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  color: #37474f;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: #263238;
+  text-decoration: none;
+}
+
+/* Footer sebelah kanan */
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .VisitPermib {
+  line-height: 20px;
+  color:  #ffffff;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 20px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 4px;
+
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/*Mobil Version (Responsive)*/
+@media (max-width: 786px){
+
+    .footer-distributed{
+      font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i{
+      margin-left: 0;
+    }
+}
+
+.pengertian-permib {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.p-logo-permib{
+  position: relative;
+  width: 30%;
+  height: 30%;
+  top: -35px;
+  left:   50px;
+}
+
+@media (max-width: 786px){
+  .p-logo-permib {
+    position: relative;
+    top: 20px;
+    left: 120px;
+  }
+}
+
+.container-sejarah {
+  padding: 100px;
+}
+
+.foto-sejarah {
+  position: relative;
+  left: 50px;
+  float: left;
+  max-width: 100%;
+  height: auto;
+}
+
+.kotak-sejarah{
+  .background-color: #1976d2
+}
+
+.sejarah h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.sejarah p {
+  text-align: justify;
+  color: white;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+
+.hade-pisan {
+  margin-top: 10px;
+  text-align: center;
+  color: #1565c0;
+  font-size: 60px;
+}
+
+@media (max-width: 786px){
+  .foto-sejarah {
+    position: relative;
+    left: -10px;
+  }
+
+  .kotak-sejarah {
+    position: relative;
+    left: -10px;
+    top: -10px;
+    width: 285px;
+    height: 360px;
+  }
+
+  .hade-pisan {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 10px;
+  }
+
+}
+
+.secVisiMisi {
+  background-color:#80cbc4;
+}
+
+.visiPermib {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+
+
+
+.isiVisi {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+  color: #0288d1;
+}
+
+
+.misiPermib {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+
+.isiMisi {
+  font-size: 18px;
+  line-height: 30px;
+  color: #0288d1;
+  margin-bottom: 20px;
+}
+
+
+
+  
+
+
+
+
