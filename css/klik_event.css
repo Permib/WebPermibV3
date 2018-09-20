@@ -315,3 +315,35 @@ section.body-klik-event {
 	text-align: justify;
 	line-height: 25px;
 }
+
+@media (max-width: 786px){
+	.circle-judul {
+		position: relative;
+		top: 300px;
+	}
+
+	.back-event {
+		padding: 100px
+	}
+
+	.circle-judul h1 {
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.text-pict p {
+		font-size: 15px;
+		position: relative;
+		top: 280px;
+		text-align: justify;
+	}
+
+	.pict {
+		position: relative;
+		right: 50px;
+		width: 80px;
+		height: 100px;
+		bottom: 70px;
+	}	
+
+}
