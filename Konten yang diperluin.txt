@@ -1,0 +1,27 @@
+Konten Buat Launching Web
+A. Homepage
+1. LOGO Fix yang bakal dipake
+2. Foto buat di bagian dpn yang nyambung sama Slider
+3. Artikel pendek tentang PMB, Permib, Perfect sama foto atau logo masing masing
+4. 4 Foto/gambar buat di slider (bisa kegiatan, event terbaru, etc)
+5. Event apa ajah
+
+B. Page About Permib
+1. Gambar/foto di about
+2. Artikel Apa itu permib
+3. Artikel sama foto sejarah Permib
+4. Visi Misi Permib
+5. Organigram
+
+C. Page Documentation
+1. 4 - 5 foto Perfect
+2. 4 -5 Foto Permib
+3. 4 - 5 Foto PMB
+
+D. Page Event (Blm jadi)
+1. event permib, perfect, pmb kedepan
+
+Footer
+1. Link IG Permib
+2. Link Youtube Permib
+3. Link Twitter Permib
