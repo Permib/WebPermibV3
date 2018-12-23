@@ -344,6 +344,7 @@ ul.box {
   margin: 0;
   margin: 20px;
   padding: 0;
+  margin-left: 6%;
 }
 
 ul.box li {
@@ -384,4 +385,109 @@ ul.box li:after{
   -ms-transform: skew(15deg) rotate(6deg);
   -o-transform: skew(15deg) rotate(6deg);
   transform: skew(15deg) rotate(6deg);
+}
+
+.boxSee {
+  position: relative;
+  margin: 5px;
+  width: 250px;
+  height: 250px;
+  border: 0.6em solid #2b2c33;
+}
+
+.boxSee--half {
+  height: 147.5px;
+}
+
+.boxSee:after,
+.boxSee:before {
+  z-index: 13;
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 100%;
+  background-color: #2b2c33;
+  transition: all 0.7s ease;
+}
+
+.boxSee:before{
+  z-index: 12;
+  background-color: #2196f3; 
+}
+
+.boxSee.reverse--transition:after {
+  left: 100%;
+}
+
+.boxSee.reverse--transition:before{
+  left: 100%;
+}
+
+.boxSee .seePos {
+  z-index: 15;
+  position: absolute;
+  left: 1em;
+  bottom: 1em;
+}
+
+.boxSee .seePos--right{
+  right: 1em;
+  left: auto;
+}
+
+.boxSee .seePos--right .headSee {
+  text-align: right;
+}
+
+.boxSee .seePos .headSee {
+  margin: 0.6em 0;
+}
+
+.boxSee .seePos .headSee .titleSee {
+  font-weight: bold;
+  font-size: 1.8em;
+  color: #2b2c33;
+  transition: all 1s ease;
+}
+
+.boxSee .seePos .butSee {
+  padding: 0.3em 0.7em;
+  background-color: #2b2c33;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3em;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+.boxSee:hover:after{
+  width: 100%;
+  transition: all 0.8s ease;
+  transition-delay: 0.2s; 
+}
+
+.boxSee:hover:before {
+  width: 100%;
+}
+
+.boxSee:hover .seePos .titleSee {
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.boxSee:hover .seePos .butSee {
+  background: #fff;
+  color: #2b2c33;
+  transition: all 0.4s ease;
+}
+
+.boxSee:hover.reverse--transition:after{
+  left: 0%;
+}
+
+.boxSee:hover.reverse--transition:before{
+  left: 0%;
 }
