@@ -27,6 +27,11 @@ header {
 	margin-left: 20px;
 }
 
+.logo img {
+  width: 100px;
+  height: 85px;
+}
+
 nav {
 	position: fixed;
 	width: 100%;
