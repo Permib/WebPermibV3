@@ -69,6 +69,11 @@ nav ul li a {
       font-size: 16px;
 }
 
+nav ul.kiri {
+  margin: 0;
+  padding-left: 130px;
+}
+
 .menu-icon {
       line-height: 60px;
       width: 100%;
@@ -107,6 +112,13 @@ nav ul li a {
     width: 100%;
     padding: 24px;
     text-align: center;
+  }
+
+  nav ul.kiri li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: left;
   }
 
   .menu-icon {

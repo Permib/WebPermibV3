@@ -68,6 +68,11 @@ nav ul {
       transition: 1s;
 }
 
+nav ul.kiri {
+  margin: 0;
+  padding-left: 130px;
+}
+
 
 nav.blue ul {
       background: #0064FF;
@@ -125,6 +130,13 @@ nav ul li a {
 		padding: 24px;
 		text-align: center;
 	}
+
+  nav ul.kiri li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: left;
+  }
 
 	.menu-icon {
 		display: block;

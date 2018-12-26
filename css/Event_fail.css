@@ -57,6 +57,11 @@ nav ul li {
 	padding: 10px 40px;
 }
 
+nav ul.kiri {
+  margin: 0;
+  padding-left: 130px;
+}
+
 nav ul li a {
 	text-decoration: none;
 	color: #fff;
