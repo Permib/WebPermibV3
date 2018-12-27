@@ -155,7 +155,7 @@ nav ul li a {
       Slider
 =======================*/
 
-.btn {
+.butn {
   display: inline-block;
   padding: 13px 20px;
   color: #fff;
@@ -170,7 +170,7 @@ nav ul li a {
   text-transform: uppercase;
   transition: color 0.1s linear 0.05s;
 }
-.btn::before {
+.butn::before {
   content: "";
   display: block;
   position: absolute;
@@ -183,24 +183,24 @@ nav ul li a {
   opacity: 0;
   transition: height 0.2s ease, top 0.2s ease, opacity 0s linear 0.2s;
 }
-.btn::after {
+.butn::after {
   transition: border 0.1s linear 0.05s;
 }
-.btn .btn-inner {
+.butn .butn-inner {
   position: relative;
   z-index: 2;
 }
-.btn:hover {
+.butn:hover {
   color: #373737;
   transition: color 0.1s linear 0s;
 }
-.btn:hover::before {
+.butn:hover::before {
   top: 0;
   height: 100%;
   opacity: 1;
   transition: height 0.2s ease, top 0.2s ease, opacity 0s linear 0s;
 }
-.btn:hover::after {
+.butn:hover::after {
   border-color: #373737;
   transition: border 0.1s linear 0s;
 }
