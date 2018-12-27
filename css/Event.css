@@ -199,7 +199,7 @@ nav ul.kiri {
 	position: relative;
 	bottom: 0;
 	width: 400px;
-	padding: 15px;
+	padding: 60px;
 	background: #f45b69;
 }
 
@@ -451,4 +451,9 @@ time {
     .footer-distributed .footer-center i{
       margin-left: 0;
     }
+}
+
+.btn {
+	margin-top: 12px;
+	float: right;
 }
