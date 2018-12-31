@@ -320,6 +320,11 @@ section.body-klik-event {
 	text-align: center;
 }
 
+.pict img {
+  height: 400px;
+  width: 300px;
+}
+
 .text-pict {
 	position: relative;
 	bottom: 50px;
