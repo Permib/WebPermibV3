@@ -307,6 +307,11 @@ section.body-klik-event {
 	padding: 150px;
 }
 
+.back-event-slider {
+  background-color: #ffffff;
+  padding: 150px;
+}
+
 .circle-judul {
 	position: relative;
 	bottom: 100px;
@@ -321,8 +326,13 @@ section.body-klik-event {
 }
 
 .pict img {
-  height: 400px;
-  width: 300px;
+  height: 300px;
+  width: 400px;
+}
+
+.pict-slider img {
+  height: 1080px;
+  width: 800px;
 }
 
 .text-pict {
